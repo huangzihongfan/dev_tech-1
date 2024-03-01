@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>次方电商网站首页</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  .header { background-color: #f4f4f4; padding: 20px; text-align: center; }
+  .nav { overflow: hidden; background-color: #333; }
+  .nav a { float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+  .nav a:hover { background-color: #ddd; color: black; }
+  .main { padding: 20px; }
+  .footer { background-color: #f4f4f4; padding: 10px; text-align: center; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>欢迎来到次方电商网站</h1>
+</div>
+<div class="nav">
+  <a href="D:\登录页面.html">点击登录</a>
+
+</div>
+<div class="nav">
+ <a href="D:\仿电商.html">点击注册</a>
+
+</div>
+
+<div class="main">
+  <h2>热门商品</h2>
+  
+</div>
+
+<div class="footer">
+  <p>版权所有 &copy; 2024</p >
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>登录页面</title>
+<style>
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>用户登录</h1>
+</div>
+
+<div class="main">
+  <form action="/submit-your-form-here" method="post">
+    <label for="username">用户名:</label>
+    <input type="text" id="username" name="username" required>
+<div class="main">
+    <form action="/submit-your-form-here" method="post">
+    <label for="email">邮箱:</label>
+    <input type="email" id="email" name="email" required>
+<div class="main">
+    <form action="/submit-your-form-here" method="post">
+    <label for="password">密码:</label>
+    <input type="password" id="password" name="password" required>
+    <input type="submit" value="登录">
+  </form>
+</div>
+
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>注册页面</title>
+<style>
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>用户注册</h1>
+</div>
+
+<div class="main">
+  <form action="/submit-your-form-here" method="post">
+    <label for="username">用户名:</label>
+    <input type="text" id="username" name="username" required>
+<div class="main">
+    <form action="/submit-your-form-here" method="post">
+    <label for="password">密码:</label>
+    <input type="password" id="password" name="password" required>
+<div class="main">
+    <form action="/submit-your-form-here" method="post">
+    <label for="email">邮箱:</label>
+    <input type="email" id="email" name="email" required>
+    <input type="submit" value="注册">
+  </form>
+</div>
+
+<div class="footer">
+    <p>已有账号? <a href="D:\电商网站首页.html">返回首页登录</a></p >
+</div>
+
+</body>
+</html>
